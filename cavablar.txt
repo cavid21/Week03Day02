@@ -1,0 +1,75 @@
+| Düzgün v? oxunaqlý CSS kodu yazmaq üçün lazým olabil?c?k 10 qayda yazýn  |
+------------------------------------------------------------------------------------------------------------
+1:reset.css-den istifade etmek lazimdir . Bu zaman butun padding ve marginleri 
+resetlemis oluruq.
+
+html, body, div, h1, h2, h3, . ,h5, h6, ul, ol, dl, li, dt, dd, p, blockquote,pre, form,
+fieldset, table, th, td { 
+	margin: 0; padding: 0; 
+}
+
+2:css-de kod yazan zaman ortaq classlardan istfde etmekle kod tekrarini aradan
+qaldirmaq lazýmdýr.
+
+3:css-de kod yazan zaman class adlarinin duzgun secilmesi.Bu kodun suretli yazil
+masini temin edecek.
+
+4:yazdiqimiz  kodalara  comment  yazmaq  kodun  basa  dusulmesi ucun yaxsidir.
+
+5:sekiller evezine iconlardan istifade etmek lazimdir . Bu zaman sitenin yuklenme 
+sureti azalir ve biz rahatliqla iconlar uzerinde  muxtelif emeliyyatlar apara bilerik.
+Meselen: iconlarda olcu boyuduldukde keyfiyyetde hec bir deyisiklik olmur.
+
+6:Html-i bitirib daha sonra css-le islemek lazimdir. 
+
+7:Kodlarin elifba sirasi ile yazilmasina diqqet yetirmek lazimdir.Oxunaqliqi artirir.
+
+8:kodlari mumkun qeder qisa ve seliqeli yazmaq lazimdir.Meselen: #buttonMain{
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+} //bunun evezine asaqidaki kimi yazmaq daha yaxsidir.
+
+#buttonMain{
+	padding: 10px 10px 10px 10px; 
+}
+
+9:kod tekrarina yol vermemek lazimdir
+
+10:kodu maksimum sade sekilde yazmaq lazimdir.Ola bislinki kodunuzu bir basqasi
+devam etdirmeli oldu.
+
+
+
+| Font Awesome kimi ikon fontlarý varmý? Varsa qisaca haqlarinda m?lumat verin |
+-----------------------------------------------------------------------------------------------------------------
+Tebiki var.Site yaradan zaman sekiller evezine iconlardan istifade daha yaxsidir.Buna 
+gorede bir cox icon fontlari movcuddur.Bunlara misal olaraq: 
+---Dashicons(197 ikon var)
+---Linea Iconset (730+ ikon var)
+---Themify Icons (320+ ikon var) ve s.
+
+
+| Az?rbaycan þriftl?rini d?st?kl?y?n 10 ?d?d font ail?sinin adýný v? istifad? qaydasýný yazýn |
+-----------------------------------------------------------------------------------------------------------------------------
+1.Agency
+2.Brandon
+3.Canter
+4.Daxline
+5.Dekorativ
+6.Ethno
+7.FreeSet
+8.Fuel
+9.Gecko
+10.Impact ve s.
+
+Ýstifade qaydasi.
+1. hemin font eger emeliyyat sistemimizin defaultunda yoxdursa onu yüklemek.
+2. yuklediyimiz fontu lahiyemize elave etmek.
+3. css hissesinde asagidaki kimi "@font-face" framesi aciriq ...
+	@font-face{
+	font-family: 'Yaverrr';
+	src: url("fontun yerlesdiyi yer");
+	}
+4. daha sonra istediyimiz yazý taglarýna font-family: "Yeverrr"; yazmaqla o fontu ala bilerik.
